@@ -1,0 +1,43 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "MERN Starter Template",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "server-install": "npm install --prefix server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "server": "nodemon server.js --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biprodas/mern.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "React",
+    "Redux",
+    "MongoDB",
+    "Mongoose",
+    "GeaphQL",
+    "Apollo"
+  ],
+  "author": "Biprodas Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biprodas/mern/issues"
+  },
+  "homepage": "https://github.com/biprodas/mern#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
