@@ -1,0 +1,17 @@
+
+body .p-accordion .p-accordion-tab {
+  margin-bottom: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.sidebar .nav-dropdown.open .nav-link {
+  color: #8dcdff;
+}
+
+.sidebar .nav-link.active{
+  color: #8dcdff;
+  background: #5c6873;
+}

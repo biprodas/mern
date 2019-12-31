@@ -3,3 +3,5 @@ package-lock.json
 logfile.log
 uncaughtExceptions.log
 .env
+
+/coreui-react

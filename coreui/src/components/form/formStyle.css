@@ -1,0 +1,43 @@
+.test {
+  color: goldenrod;
+}
+
+/* .form-group {
+  position: relative;
+  margin-bottom: 1.75rem;
+  font-size: 1rem;
+} */
+.form-control {
+  font-size: 1rem;
+  border-color: #acb5bc; 
+  height: calc(1.25em + 0.75rem + 2px)
+}
+
+/* #6c757d */
+
+.form-control.is-valid {
+  background-position: right calc(0.5em + 0.1875rem) center;
+}
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 5px 0 0 13px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 90%;
+  transform: translate3d(0, -100%, 0);
+}
+
+
+/* .expand {
+  width: 90%;
+  -webkit-transition:width 0.5s ease-in-out;
+}
+.expand:focus {
+  width: 100%;
+  -webkit-transition:width 0.3s ease-in-out;
+} */
